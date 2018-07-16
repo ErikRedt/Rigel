@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Quicksand|Gugi|Cinzel');
+/*font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Gugi', cursive;
+font-family: 'Cinzel', serif;*/
+.general{
+  font-family: 'Quicksand', sans-serif;
+  background-image: url("../Resources/backgray.jpg");
+}
+.title{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  color: ForestGreen ;
+}
+.picon{
+  display: block;
+  width:100%;
+  max-width:300px;
+  margin: auto;
+}
+.opt{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  opacity: .95;
+  list-style: none;
+  border: solid 1px SteelBlue;
+  border-radius: 25px;
+  max-width: 12em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  background: linear-gradient(#83A6DF,  #3475C5);
+  box-shadow: 0px 5px 15px black;
+}
+.opt:hover{
+    box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 black;
+    transform:scale(1.05);
+    transition:all 0.4s ease;
+}
+.opt a{
+  text-decoration: none;
+  color: white;
+}

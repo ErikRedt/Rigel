@@ -1,0 +1,19 @@
+#slider{
+	z-index: -1;
+	width: 80%;
+	position: absolute;
+	margin-top: 4em;
+	left:10%;
+}
+#ctrl1{
+	z-index: -1;
+	position: absolute;
+	margin-top: 5em;
+	left:90.5%;
+	}
+#ctrl2{
+	z-index: -1;
+	position: absolute;
+	margin-top: 7.5em;
+	left:90.5%;
+	}

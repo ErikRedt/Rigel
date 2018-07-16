@@ -1,0 +1,132 @@
+body {
+	background-color:#ABC0D6;
+	color:#000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 10px;
+	padding: 0px;
+}
+
+* 	{ margin 0px; padding:0px; }
+#container { margin:0px auto; width:750px; text-align:left;  }
+
+p 	{ margin:15px 0 10px 0; text-align:justify; }
+
+/********************** Header ***************************/
+#menu {
+	margin: 0px 0px 0px 0px;
+	width:750px; height:180px;
+	position:relative;
+}
+
+.piscine 	{ background-image:url(piscine/images/header.png); }
+.lfm 	 	{ background-image:url(images/header.png); }
+.activites  { background-image:url(activites/images/header.png); }
+
+#menu ul{
+	background-color:#ABC0D6;
+	width:744px;
+	border: 3px solid #FFFFFF;
+	display:block;
+	top:155px;
+	position:absolute;
+	margin: 0px 0px 0px 0px;
+	height:22px;
+	padding:5px 0px 0px 0px;
+	text-align:center;
+}
+#menu li   { display:inline; text-decoration:none;	}
+#menu ul a { text-decoration:none; color:#FFFFFF; margin: 0px 15px; }
+#menu ul a:hover { text-decoration:underline; }
+
+#footerline {clear:both; background-image:url(images/footer_bg.gif); height:10px; }
+
+
+
+
+
+
+/********************** Content ***************************/
+#content { background-image:url(images/content_bg.gif); }
+img { border-width:0px; }
+h1 { color:#666666;	font-size:14px;	margin: 20px 0px 20px 0px; }
+h2 { color:#666666;	font-size:14px; margin: 10px 0px 15px 0px; text-align:center; }
+#left {
+	float:left;
+	width:520px;
+	margin-left:15px;
+	padding: 0;
+	display:inline;
+}
+
+#right {
+	float:right;
+	width:180px;
+	padding: 10px;
+	margin-top:10px;
+	border-left: #FFFFFF 2px solid;
+	text-align:justify;
+}
+
+a { text-decoration:none; font-weight:bold; color:#000000; }
+a:hover { text-decoration:underline; }
+
+
+/*- Menu 2--------------------------- */
+	
+#menu2 {
+	width: 300px;
+	margin: 10px;
+	border-style: solid solid none solid;
+	border-color: #D8D5D1;
+	border-size: 1px;
+	border-width: 1px;
+	
+	}
+
+
+#menu2 li a {
+	
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	text-decoration: none;
+	}	
+	
+#menu2 li a:link, #menu2 li a:visited {
+	color: #3688BA;
+	display: block;
+	background:  url(images/menu2.gif);
+	padding: 8px 0 0 30px;
+	}
+	
+#menu2 li a:hover {
+	color: #3688BA;
+	background:  url(images/menu2.gif) 0 -32px;
+	padding: 8px 0 0 32px;
+	}
+	
+
+
+
+/********************** Footer ***************************/
+#footer { font-size: 10px; text-align:center; margin-top:10px}
+
+/********************** Custom ***************************/
+h3 	   { color:#ABC0D6;	font-size:14px; margin: 10px 0px 15px 0px; text-align:center; }
+.error { color:#DD00DD;	font-size:12px; margin: 10px 0px 15px 0px; text-align:center; }
+
+.espace {width:30px; }
+.bouton {width:100px; text-align:right; }
+.center {text-align:center; }
+.right  {text-align:right; }
+.left   {text-align:left; }
+.td1   {width:150px; }
+.td2   {width:200px; }
+.libre {padding:5px 10px 5px 10px; background-color:#ffffff; color:#000000; }
+.passe {padding:5px 10px 5px 10px; background-color:#dddddd; color:#000000; }
+.pris  {padding:5px 10px 5px 10px; font-weight:bold; }
+.flag  {float:right; font-size:10px; padding: 0 0 10px 50px ; }
+.cadre {margin:auto; border-collapse:collapse; border:3px solid #ffffff; font-size:11px; width:500px}
+.cadre th {background-color:#ABC0D6; color:#ffffff; font-weight:bold; font-size:14px; text-align:left; }
+.cadre th, .cadre td {border:1px dashed #ffffff; padding:2px; width:120px}

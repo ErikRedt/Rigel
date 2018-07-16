@@ -1,0 +1,39 @@
+header{
+	margin:0;
+	padding: 0;
+}
+
+nav{
+	background-color: #000;
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+}
+
+#maincontent{
+	width: 950px;
+	margin: 0 auto;
+}
+#content{
+	width: 950px;
+	padding: 10px;
+	clear: both;
+}
+
+
+li{
+	display: block;
+	width:100px;
+	margin:15px;
+	float: left ;
+}
+
+li a{
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+li a:hover{
+	text-decoration: underline;
+}
+

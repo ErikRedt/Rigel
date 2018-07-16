@@ -1,0 +1,26 @@
+.listul{
+	margin-top: 4em;
+	margin-bottom: 3em;
+	padding: 0;
+	width: 80%;
+	margin-left: 10%
+}
+.listli{
+	margin-bottom: 1em;
+	display: block;
+	padding: 8px;
+	background: linear-gradient(white, LightGray);
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.listli:hover{
+    box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+    transform:scale(1.05);
+    transition:all 0.4s ease;
+}
+
+a{
+	color:black;
+	text-decoration:none;
+}

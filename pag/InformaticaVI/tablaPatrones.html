@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="../../img/wolfbar.png" />
+	<link rel="stylesheet" type="text/css" href="../../css/StyleLayout.css">
+	<link rel="stylesheet" type="text/css" href="../../css/StyleTables.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--respobsibilidad-->
+	<script type="text/javascript" src="../../JS/layout.js"></script>
+
+<title>Tabla Comparativa metodologías</title>
+
+</head>
+
+<body>
+
+	<div class="topnav" id="myTopnav">
+		<a href="../../index.html">Inicio</a>
+		<a class="active" href="./InformaticaVI.php">Informática VI</a>
+		<a href="../DesarrolloWeb/DesarrolloWeb.php">Desarrollo Web</a></li>
+		<a href="../Horario.php">Horario 6to semestre</a>
+		<a href="../pruebas/pruebas.html">Pruebas</a>
+		<a href="javascript:(void);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		<span><a style="float:right" href=mailto:"erikr2787@gmail.com">Contacto</a></span>
+		<i style="float:right"><img src="../../img/tree.png" width="30" height="40" alt="tree"></i>
+	</div>
+
+	<p id="CambiarRes">
+		<strong>Esta tabla se aprecia mejor en una resolucion más grande o en Landscape de tu telefono. :)</strong>
+	</p>
+
+	<p>
+		<table>
+			<tr class="titulos">
+				<th>Categoría</th>
+				<th>Tipo</th>
+				<th>Patrón de diseño</th>
+				<th>Caracteristicas Principales</th>
+			</tr>
+			<tr>
+				<td rowspan="7">Creacionales</td>
+				<td rowspan="2">De clase</td>
+				<td>Abstract Factory</td>
+				<td>Crea diferentes familias de objetos.</td>
+			</tr>
+			<tr>
+
+
+				<td>Builder</td>
+				<td>Construye objetos complejos de forma incremental.</td>
+			</tr>
+			<tr>
+
+				<td rowspan="5">De objeto</td>
+				<td>Factory Method</td>
+				<td>Permite que las subclases determinen clases a instanciar.</td>
+			</tr>
+			<tr>
+
+				<td>Prototype</td>
+				<td>Clonar nuevos ejemplares de un prototipo.</td>
+			</tr>
+			<tr>
+
+				<td>Singleton</td>
+				<td>Restringe la instanciación de un tipo a un solo objeto.</td>
+			</tr>
+			<tr>
+
+				<td>Objet Pool</td>
+				<td>Asegura que un solo hay un  miembro de una clase y da acceso global a el.</td>
+			</tr>
+			<tr>
+
+				<td>Model View Controller</td>
+				<td>divide la creacion en modelo-vista-controlador permitiendo la creación en las 3.</td>
+			</tr>
+			<tr>
+				<td rowspan="9">Estructurales</td>
+				<td rowspan="2">De clase</td>
+				<td>Class adapter</td>
+				<td>Covierte una interfaz en otra.</td>
+			</tr>
+			<tr>
+
+				<td>Herencia múltiple</td>
+				<td>Una clase hereda de otras y combina propiedades.</td>
+			</tr>
+			<tr>
+				<td rowspan="7">De objetos</td>
+				<td>Object adapter</td>
+				<td>Estructurales</td>
+			</tr>
+			<tr>
+				<td>Bridge</td>
+				<td>Desacopla la abstracción de la implementación permitiendo modificarlas independientemente.</td>
+			</tr>
+			<tr>
+				<td>Composite</td>
+				<td>Construye objetos complejos a partir de simples, de forma recursiva y con estructura de arbol.</td>
+			</tr>
+			<tr>
+				<td>Decorator</td>
+				<td>Permite añadir dinamicamente fucionalidades a clases existentes.</td>
+			</tr>
+			<tr>
+				<td>Facade</td>
+				<td>Permite simplificar la interfaz de un sistema.</td>
+			</tr>
+			<tr>
+				<td>Flyweight</td>
+				<td>Elimina redundancia o la reduce.</td>
+			</tr>
+			<tr>
+				<td>Proxy</td>
+				<td>Un objeto que se aproxima a otro.</td>
+			</tr>
+			<tr>
+				<td rowspan="12">De comportamiento</td>
+				<td rowspan="2">De clase</td>
+				<td>Interpreter</td>
+				<td>Interprete de lenguaje para una gramatica simple y sencilla.</td>
+			</tr>
+			<tr>
+				<td>Template method</td>
+				<td>Algoritmo con varios pasos suministrados por una clase derivada.</td>
+			</tr>
+			<tr>
+				<td rowspan="10">De objeto</td>
+				<td>Chain of responsability</td>
+				<td> La base es permitir que más de un objeto tenga la posibilidad de atender una petición.</td>
+			</tr>
+			<tr>
+				<td>Command</td>
+				<td> Encapsula una petición como un objeto dando la posibilidad de “deshacer” la petición.</td>
+			</tr>
+			<tr>
+				<td>Iterator</td>
+				<td>Define una interfaz que declara los métodos necesarios para acceder secuencialmente a una colección de objetos sin exponer su estructura interna.</td>
+			</tr>
+			<tr>
+				<td>Mediator</td>
+				<td>Coordina las relaciones entre sus asociados. Permite la interacción de varios objetos, sin generar acoples fuertes en esas relaciones. </td>
+			</tr>
+			<tr>
+				<td>Memento</td>
+				<td> Almacena el estado de un objeto y lo restaura posteriormente.</td>
+			</tr>
+			<tr>
+				<td>Observer</td>
+				<td> Notificaciones de cambios de estado de un objeto. </td>
+			</tr>
+			<tr>
+				<td>Server</td>
+				<td>Se utiliza cuando el comportamiento de un objeto cambia dependiendo del estado del mismo. </td>
+			</tr>
+			<tr>
+				<td>State</td>
+				<td>Objeto cuyo comportamiento depende de un estado (el objeto puede aparentar cambiar de clase según un estado). </td>
+			</tr>
+			<tr>
+				<td>Strategy</td>
+				<td>Utilizado para manejar la selección de un algoritmo. </td>
+			</tr>
+			<tr>
+				<td>Visitor</td>
+				<td>Operaciones aplicadas a elementos de una estructura de objetos heterogénea.</td>
+			</tr>
+
+		</table>
+	</p>
+
+	<footer>
+      Derechos reservados &copy; 2018
+    </footer>
+</body>
+</html>

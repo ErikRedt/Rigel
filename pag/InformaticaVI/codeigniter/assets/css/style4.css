@@ -1,0 +1,26 @@
+body
+{
+	font-size:100%;
+	color: Cyan;
+	font-family: Copperplate Gothic, century gothic, 'sans serif';
+	background-image:url('C:/Imagenes/fondo_neg.jpg');
+	background-repeat:repeat-x;
+	margin:75px;
+}
+
+h1 {font-size:220%;
+	color: DarkMagenta;}
+h2 {font-size:200%;
+	color: DarkMagenta;}
+h3 {font-size:180%;
+	color: DarkMagenta;}
+
+th {color: white;
+	background-color: #6699FF;}
+
+
+ul {list-style:circle;}
+ol {list-style:upper-roman;}
+
+a:link {color: Cyan; text-decoration:none;}
+a:hover {color: Green; font-weight:bold; text-decoration:none;}

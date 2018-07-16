@@ -1,0 +1,143 @@
+/*table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 6em;
+    margin-bottom: 4em;
+  }
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align:center;
+}
+tr{
+    background-color: white;
+}
+tr:hover {
+    background-color: #5f88c1;
+    color:white;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #ddd;
+    color: black;
+}
+@media screen and (max-width: 700px) {
+  table{
+    width: 100%;
+  }
+  td, tr {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 700px) {
+       table {
+           width:100%;
+       }
+       thead {
+           display: none;
+       }
+       tr:nth-of-type(2n) {
+           background-color: inherit;
+       }
+       tr td:first-child {
+           background: #f0f0f0;
+           font-weight:bold;
+           font-size:1.3em;
+       }
+       tbody td {
+           display: block;
+           text-align:center;
+       }
+       tbody td:before {
+           content: attr(data-th);
+           display: block;
+           text-align:center;
+       }
+}
+}
+*/
+
+
+table {
+  width: 80%;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 6em;
+  margin-bottom: 3em;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+
+table tr {
+	border: 1px solid #ddd;
+	padding: 5px;
+}
+
+table tr:nth-child(even) {
+	background-color: #666;
+	color: white;
+}
+
+table td, table th {
+	padding: 10px;
+	text-align: center;
+}
+
+table th {
+	text-transform: uppercase;
+	font-family: 18px;
+	letter-spacing: 1px;
+}
+#CambiarRes{
+  display: none;
+  margin-top: 5em;
+}
+
+/*//////////////////////////////////////////////*/
+
+@media screen and (max-width: 600px) {
+  #CambiarRes{
+    display: block;
+  }
+  .titulos{/*para cuando se acomode al telefono celular o aparesca la primera fila*/
+    display: none;
+  }
+	table {
+    width: 95%;
+		border:0;
+	}
+
+	table tr {
+		margin-bottom: 10px;
+		display: block;
+		border-bottom: 2px solid #ddd;
+
+	}
+
+	table td {
+		display: block;
+		text-align: center;
+		font-size: 16px;
+		border-bottom: 1px dotted #ccc;
+	}
+
+	table td:last-child {
+		border-bottom: 0;
+	}
+
+	table td:before {
+		content: attr(data-label);
+		float: left;
+		text-transform: uppercase;
+		font-style: italic;
+	}
+
+	table thead {
+		display: none;
+	}
+}

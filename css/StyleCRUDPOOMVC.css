@@ -1,0 +1,21 @@
+#form{
+  width: 11em;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 3em;
+  /*position: relative;*/
+  padding: 3em;
+  background-color: lightgray;
+  border: solid 1px gray;
+  border-radius: 12%;
+  box-shadow: 0px 2px 5px 3px lightgray
+}
+h1{
+  margin-top: 3em;
+  width: 100%;
+  text-align:center;
+}
+/*form{
+  margin-bottom: 3em;
+}
+*/
